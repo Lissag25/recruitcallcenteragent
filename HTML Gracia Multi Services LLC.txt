@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Remote Call Center Team | Gracia Multi Services LLC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #b30000;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+        .hero {
+            text-align: center;
+            padding: 30px;
+            background: white;
+        }
+        .hero img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .content {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        .apply-btn {
+            display: inline-block;
+            background: #e60000;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .contact-form {
+            margin-top: 30px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type=submit] {
+            background-color: #e60000;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type=submit]:hover {
+            background-color: #cc0000;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #b30000;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gracia Multi Services LLC</h1>
+        <p>Join Our Remote Call Center Team – Work from Home with Flexibility</p>
+    </header>
+
+    <div class="hero">
+        <img src="remote-call-center-image.png" alt="Remote Call Center Agent">
+    </div>
+
+    <div class="content">
+        <h2>Why Join Gracia Multi Services?</h2>
+        <p>At Gracia Multi Services LLC, we empower individuals to work remotely while delivering excellent customer service for our clients. We are hiring dedicated and professional remote call center agents who want to grow with us.</p>
+
+        <h3>What We Offer</h3>
+        <ul>
+            <li>100% Remote Work Environment</li>
+            <li>Flexible Scheduling – Set Your Own Hours</li>
+            <li>Supportive Team and Paid Training</li>
+            <li>Performance Bonuses and Career Growth</li>
+        </ul>
+
+        <h3>What You Need</h3>
+        <ul>
+            <li>Excellent Communication and Interpersonal Skills</li>
+            <li>Reliable Computer, Internet Connection, and Headset</li>
+            <li>Quiet Home Workspace</li>
+            <li>Self-Motivated and Dependable</li>
+        </ul>
+
+        <h3>Apply Now</h3>
+        <p>Start your journey with Gracia Multi Services LLC today. Complete the form below, or call us at <strong>380-799-0704</strong> for more information.</p>
+
+        <div class="contact-form">
+            <form action="[Your_Form_Handler_URL]" method="POST">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Tell us why you're interested</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <input type="submit" value="Submit Application">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Gracia Multi Services LLC | Contact: 380-799-0704
+    </footer>
+
+</body>
+</html>
